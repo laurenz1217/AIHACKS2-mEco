@@ -1,0 +1,833 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB295BD124DC95E80061F850 /* SwipeIntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB295BD024DC95E70061F850 /* SwipeIntroductionViewController.swift */; };
+		EB8A013A24D06C4E00883BF0 /* CareerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8A013924D06C4E00883BF0 /* CareerDetailViewController.swift */; };
+		EB8CFEC224D0B82900579F32 /* CareerDetailTableViewCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8CFEC124D0B82900579F32 /* CareerDetailTableViewCells.swift */; };
+		EB8CFEC424D0B87A00579F32 /* CoolWomenCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8CFEC324D0B87A00579F32 /* CoolWomenCollectionCell.swift */; };
+		EB8CFEC624D0B89D00579F32 /* CoolWomenDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8CFEC524D0B89D00579F32 /* CoolWomenDataSource.swift */; };
+		EB8CFEC824D0B90900579F32 /* CareeersTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8CFEC724D0B90900579F32 /* CareeersTableCell.swift */; };
+		EB8CFECA24D0B94500579F32 /* Discover+CareerDetail_DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8CFEC924D0B94500579F32 /* Discover+CareerDetail_DataSource.swift */; };
+		EB8CFECC24D0B97F00579F32 /* Helper+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8CFECB24D0B97F00579F32 /* Helper+Extension.swift */; };
+		EB8CFECE24D0B9B500579F32 /* Games+Videos_DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8CFECD24D0B9B500579F32 /* Games+Videos_DataSource.swift */; };
+		EB8CFED024D0B9EC00579F32 /* STEMDefinitionDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8CFECF24D0B9EC00579F32 /* STEMDefinitionDataSource.swift */; };
+		EB8CFED224D0BA3C00579F32 /* ExploreDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8CFED124D0BA3C00579F32 /* ExploreDataSource.swift */; };
+		EBEDFA4C24D4BD74007FAF25 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEDFA4B24D4BD74007FAF25 /* FirstViewController.swift */; };
+		EBEDFA4E24D4BD8C007FAF25 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEDFA4D24D4BD8C007FAF25 /* SecondViewController.swift */; };
+		EBF7F92B24CDED6E00E73B4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF7F92A24CDED6E00E73B4E /* AppDelegate.swift */; };
+		EBF7F92D24CDED6E00E73B4E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF7F92C24CDED6E00E73B4E /* SceneDelegate.swift */; };
+		EBF7F92F24CDED6E00E73B4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF7F92E24CDED6E00E73B4E /* ViewController.swift */; };
+		EBF7F93224CDED6E00E73B4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBF7F93024CDED6E00E73B4E /* Main.storyboard */; };
+		EBF7F93424CDED7200E73B4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBF7F93324CDED7200E73B4E /* Assets.xcassets */; };
+		EBF7F93724CDED7200E73B4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBF7F93524CDED7200E73B4E /* LaunchScreen.storyboard */; };
+		EBF7F94224CDED7200E73B4E /* MissionSTEMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF7F94124CDED7200E73B4E /* MissionSTEMTests.swift */; };
+		EBF7F94D24CDED7200E73B4E /* MissionSTEMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF7F94C24CDED7200E73B4E /* MissionSTEMUITests.swift */; };
+		EBF7F95B24CDF44600E73B4E /* Bangla MN.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EBF7F95A24CDF44300E73B4E /* Bangla MN.ttf */; };
+		EBF7F96E24CDF5A900E73B4E /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EBF7F96224CDF59E00E73B4E /* Roboto-Black.ttf */; };
+		EBF7F96F24CDF5A900E73B4E /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EBF7F96024CDF59E00E73B4E /* Roboto-BlackItalic.ttf */; };
+		EBF7F97024CDF5A900E73B4E /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EBF7F96124CDF59E00E73B4E /* Roboto-Bold.ttf */; };
+		EBF7F97124CDF5A900E73B4E /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EBF7F96424CDF59E00E73B4E /* Roboto-BoldItalic.ttf */; };
+		EBF7F97224CDF5A900E73B4E /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EBF7F95C24CDF59E00E73B4E /* Roboto-Italic.ttf */; };
+		EBF7F97324CDF5A900E73B4E /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EBF7F95F24CDF59E00E73B4E /* Roboto-Light.ttf */; };
+		EBF7F97424CDF5A900E73B4E /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EBF7F96724CDF59E00E73B4E /* Roboto-LightItalic.ttf */; };
+		EBF7F97524CDF5A900E73B4E /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EBF7F96C24CDF59F00E73B4E /* Roboto-Medium.ttf */; };
+		EBF7F97624CDF5A900E73B4E /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EBF7F96324CDF59E00E73B4E /* Roboto-MediumItalic.ttf */; };
+		EBF7F97724CDF5A900E73B4E /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EBF7F95E24CDF59E00E73B4E /* Roboto-Regular.ttf */; };
+		EBF7F97824CDF5A900E73B4E /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EBF7F96824CDF59F00E73B4E /* Roboto-Thin.ttf */; };
+		EBF7F97924CDF5A900E73B4E /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EBF7F96924CDF59F00E73B4E /* Roboto-ThinItalic.ttf */; };
+		EBF7F97A24CDF5A900E73B4E /* RobotoCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EBF7F96A24CDF59F00E73B4E /* RobotoCondensed-Bold.ttf */; };
+		EBF7F97B24CDF5A900E73B4E /* RobotoCondensed-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EBF7F96524CDF59E00E73B4E /* RobotoCondensed-BoldItalic.ttf */; };
+		EBF7F97C24CDF5A900E73B4E /* RobotoCondensed-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EBF7F95D24CDF59E00E73B4E /* RobotoCondensed-Italic.ttf */; };
+		EBF7F97D24CDF5A900E73B4E /* RobotoCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EBF7F96624CDF59E00E73B4E /* RobotoCondensed-Light.ttf */; };
+		EBF7F97E24CDF5A900E73B4E /* RobotoCondensed-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EBF7F96D24CDF59F00E73B4E /* RobotoCondensed-LightItalic.ttf */; };
+		EBF7F97F24CDF5A900E73B4E /* RobotoCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EBF7F96B24CDF59F00E73B4E /* RobotoCondensed-Regular.ttf */; };
+		EBF7F98324CE022F00E73B4E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF7F98224CE022F00E73B4E /* HomeViewController.swift */; };
+		EBF7F98524CE0F5F00E73B4E /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF7F98424CE0F5F00E73B4E /* ExploreViewController.swift */; };
+		EBF7F98724CED33000E73B4E /* STEMDefinitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF7F98624CED33000E73B4E /* STEMDefinitionViewController.swift */; };
+		EBF7F98B24CEFAC000E73B4E /* DiscoverCareersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF7F98A24CEFAC000E73B4E /* DiscoverCareersViewController.swift */; };
+		EBF7F98D24CF1F1E00E73B4E /* VideosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF7F98C24CF1F1E00E73B4E /* VideosViewController.swift */; };
+		EBF7F98F24CF25C900E73B4E /* GamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF7F98E24CF25C900E73B4E /* GamesViewController.swift */; };
+		EBF7F99124CF2CA500E73B4E /* CoolWomenInSTEMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF7F99024CF2CA500E73B4E /* CoolWomenInSTEMViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBF7F93E24CDED7200E73B4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBF7F91F24CDED6E00E73B4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBF7F92624CDED6E00E73B4E;
+			remoteInfo = MissionSTEM;
+		};
+		EBF7F94924CDED7200E73B4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBF7F91F24CDED6E00E73B4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBF7F92624CDED6E00E73B4E;
+			remoteInfo = MissionSTEM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB295BD024DC95E70061F850 /* SwipeIntroductionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeIntroductionViewController.swift; sourceTree = "<group>"; };
+		EB8A013924D06C4E00883BF0 /* CareerDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareerDetailViewController.swift; sourceTree = "<group>"; };
+		EB8CFEC124D0B82900579F32 /* CareerDetailTableViewCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareerDetailTableViewCells.swift; sourceTree = "<group>"; };
+		EB8CFEC324D0B87A00579F32 /* CoolWomenCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolWomenCollectionCell.swift; sourceTree = "<group>"; };
+		EB8CFEC524D0B89D00579F32 /* CoolWomenDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolWomenDataSource.swift; sourceTree = "<group>"; };
+		EB8CFEC724D0B90900579F32 /* CareeersTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareeersTableCell.swift; sourceTree = "<group>"; };
+		EB8CFEC924D0B94500579F32 /* Discover+CareerDetail_DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Discover+CareerDetail_DataSource.swift"; sourceTree = "<group>"; };
+		EB8CFECB24D0B97F00579F32 /* Helper+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Helper+Extension.swift"; sourceTree = "<group>"; };
+		EB8CFECD24D0B9B500579F32 /* Games+Videos_DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Games+Videos_DataSource.swift"; sourceTree = "<group>"; };
+		EB8CFECF24D0B9EC00579F32 /* STEMDefinitionDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STEMDefinitionDataSource.swift; sourceTree = "<group>"; };
+		EB8CFED124D0BA3C00579F32 /* ExploreDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreDataSource.swift; sourceTree = "<group>"; };
+		EBEDFA4B24D4BD74007FAF25 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		EBEDFA4D24D4BD8C007FAF25 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		EBF7F92724CDED6E00E73B4E /* MissionSTEM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MissionSTEM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBF7F92A24CDED6E00E73B4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBF7F92C24CDED6E00E73B4E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EBF7F92E24CDED6E00E73B4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EBF7F93124CDED6E00E73B4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBF7F93324CDED7200E73B4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBF7F93624CDED7200E73B4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBF7F93824CDED7200E73B4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBF7F93D24CDED7200E73B4E /* MissionSTEMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MissionSTEMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBF7F94124CDED7200E73B4E /* MissionSTEMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionSTEMTests.swift; sourceTree = "<group>"; };
+		EBF7F94324CDED7200E73B4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBF7F94824CDED7200E73B4E /* MissionSTEMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MissionSTEMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBF7F94C24CDED7200E73B4E /* MissionSTEMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionSTEMUITests.swift; sourceTree = "<group>"; };
+		EBF7F94E24CDED7200E73B4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBF7F95A24CDF44300E73B4E /* Bangla MN.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bangla MN.ttf"; sourceTree = "<group>"; };
+		EBF7F95C24CDF59E00E73B4E /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		EBF7F95D24CDF59E00E73B4E /* RobotoCondensed-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Italic.ttf"; sourceTree = "<group>"; };
+		EBF7F95E24CDF59E00E73B4E /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		EBF7F95F24CDF59E00E73B4E /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		EBF7F96024CDF59E00E73B4E /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		EBF7F96124CDF59E00E73B4E /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		EBF7F96224CDF59E00E73B4E /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		EBF7F96324CDF59E00E73B4E /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		EBF7F96424CDF59E00E73B4E /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		EBF7F96524CDF59E00E73B4E /* RobotoCondensed-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-BoldItalic.ttf"; sourceTree = "<group>"; };
+		EBF7F96624CDF59E00E73B4E /* RobotoCondensed-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Light.ttf"; sourceTree = "<group>"; };
+		EBF7F96724CDF59E00E73B4E /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		EBF7F96824CDF59F00E73B4E /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		EBF7F96924CDF59F00E73B4E /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		EBF7F96A24CDF59F00E73B4E /* RobotoCondensed-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Bold.ttf"; sourceTree = "<group>"; };
+		EBF7F96B24CDF59F00E73B4E /* RobotoCondensed-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Regular.ttf"; sourceTree = "<group>"; };
+		EBF7F96C24CDF59F00E73B4E /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		EBF7F96D24CDF59F00E73B4E /* RobotoCondensed-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-LightItalic.ttf"; sourceTree = "<group>"; };
+		EBF7F98224CE022F00E73B4E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EBF7F98424CE0F5F00E73B4E /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		EBF7F98624CED33000E73B4E /* STEMDefinitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STEMDefinitionViewController.swift; sourceTree = "<group>"; };
+		EBF7F98A24CEFAC000E73B4E /* DiscoverCareersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverCareersViewController.swift; sourceTree = "<group>"; };
+		EBF7F98C24CF1F1E00E73B4E /* VideosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosViewController.swift; sourceTree = "<group>"; };
+		EBF7F98E24CF25C900E73B4E /* GamesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesViewController.swift; sourceTree = "<group>"; };
+		EBF7F99024CF2CA500E73B4E /* CoolWomenInSTEMViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolWomenInSTEMViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBF7F92424CDED6E00E73B4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF7F93A24CDED7200E73B4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF7F94524CDED7200E73B4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB8CFEBA24D0B79B00579F32 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EBF7F98224CE022F00E73B4E /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EB8CFEBB24D0B7A600579F32 /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				EBF7F98424CE0F5F00E73B4E /* ExploreViewController.swift */,
+				EB8CFED124D0BA3C00579F32 /* ExploreDataSource.swift */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		EB8CFEBC24D0B7B700579F32 /* STEMDefinition */ = {
+			isa = PBXGroup;
+			children = (
+				EBF7F98624CED33000E73B4E /* STEMDefinitionViewController.swift */,
+				EB8CFECF24D0B9EC00579F32 /* STEMDefinitionDataSource.swift */,
+			);
+			path = STEMDefinition;
+			sourceTree = "<group>";
+		};
+		EB8CFEBD24D0B7C700579F32 /* GamesAndVideos */ = {
+			isa = PBXGroup;
+			children = (
+				EBF7F98E24CF25C900E73B4E /* GamesViewController.swift */,
+				EBF7F98C24CF1F1E00E73B4E /* VideosViewController.swift */,
+				EB8CFECD24D0B9B500579F32 /* Games+Videos_DataSource.swift */,
+			);
+			path = GamesAndVideos;
+			sourceTree = "<group>";
+		};
+		EB8CFEBE24D0B7DE00579F32 /* DiscoverCareers */ = {
+			isa = PBXGroup;
+			children = (
+				EBF7F98A24CEFAC000E73B4E /* DiscoverCareersViewController.swift */,
+				EB8CFEC724D0B90900579F32 /* CareeersTableCell.swift */,
+				EB8CFEC924D0B94500579F32 /* Discover+CareerDetail_DataSource.swift */,
+			);
+			path = DiscoverCareers;
+			sourceTree = "<group>";
+		};
+		EB8CFEBF24D0B7F700579F32 /* CoolWomen */ = {
+			isa = PBXGroup;
+			children = (
+				EBF7F99024CF2CA500E73B4E /* CoolWomenInSTEMViewController.swift */,
+				EB8CFEC324D0B87A00579F32 /* CoolWomenCollectionCell.swift */,
+				EB8CFEC524D0B89D00579F32 /* CoolWomenDataSource.swift */,
+			);
+			path = CoolWomen;
+			sourceTree = "<group>";
+		};
+		EB8CFEC024D0B80000579F32 /* CareerDetail */ = {
+			isa = PBXGroup;
+			children = (
+				EB8A013924D06C4E00883BF0 /* CareerDetailViewController.swift */,
+				EB8CFEC124D0B82900579F32 /* CareerDetailTableViewCells.swift */,
+			);
+			path = CareerDetail;
+			sourceTree = "<group>";
+		};
+		EBEDFA4A24D4BD5E007FAF25 /* NavigationTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				EBEDFA4B24D4BD74007FAF25 /* FirstViewController.swift */,
+				EBEDFA4D24D4BD8C007FAF25 /* SecondViewController.swift */,
+			);
+			path = NavigationTutorial;
+			sourceTree = "<group>";
+		};
+		EBF7F91E24CDED6E00E73B4E = {
+			isa = PBXGroup;
+			children = (
+				EBF7F92924CDED6E00E73B4E /* MissionSTEM */,
+				EBF7F94024CDED7200E73B4E /* MissionSTEMTests */,
+				EBF7F94B24CDED7200E73B4E /* MissionSTEMUITests */,
+				EBF7F92824CDED6E00E73B4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBF7F92824CDED6E00E73B4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBF7F92724CDED6E00E73B4E /* MissionSTEM.app */,
+				EBF7F93D24CDED7200E73B4E /* MissionSTEMTests.xctest */,
+				EBF7F94824CDED7200E73B4E /* MissionSTEMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBF7F92924CDED6E00E73B4E /* MissionSTEM */ = {
+			isa = PBXGroup;
+			children = (
+				EBEDFA4A24D4BD5E007FAF25 /* NavigationTutorial */,
+				EB8CFEC024D0B80000579F32 /* CareerDetail */,
+				EB8CFEBF24D0B7F700579F32 /* CoolWomen */,
+				EB8CFEBE24D0B7DE00579F32 /* DiscoverCareers */,
+				EB8CFEBD24D0B7C700579F32 /* GamesAndVideos */,
+				EB8CFEBC24D0B7B700579F32 /* STEMDefinition */,
+				EB8CFEBB24D0B7A600579F32 /* Explore */,
+				EB8CFEBA24D0B79B00579F32 /* Home */,
+				EBF7F98024CDF63D00E73B4E /* Library */,
+				EBF7F92A24CDED6E00E73B4E /* AppDelegate.swift */,
+				EBF7F92C24CDED6E00E73B4E /* SceneDelegate.swift */,
+				EBF7F92E24CDED6E00E73B4E /* ViewController.swift */,
+				EBF7F93024CDED6E00E73B4E /* Main.storyboard */,
+				EBF7F93324CDED7200E73B4E /* Assets.xcassets */,
+				EBF7F93524CDED7200E73B4E /* LaunchScreen.storyboard */,
+				EBF7F93824CDED7200E73B4E /* Info.plist */,
+				EB295BD024DC95E70061F850 /* SwipeIntroductionViewController.swift */,
+			);
+			path = MissionSTEM;
+			sourceTree = "<group>";
+		};
+		EBF7F94024CDED7200E73B4E /* MissionSTEMTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBF7F94124CDED7200E73B4E /* MissionSTEMTests.swift */,
+				EBF7F94324CDED7200E73B4E /* Info.plist */,
+			);
+			path = MissionSTEMTests;
+			sourceTree = "<group>";
+		};
+		EBF7F94B24CDED7200E73B4E /* MissionSTEMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EBF7F94C24CDED7200E73B4E /* MissionSTEMUITests.swift */,
+				EBF7F94E24CDED7200E73B4E /* Info.plist */,
+			);
+			path = MissionSTEMUITests;
+			sourceTree = "<group>";
+		};
+		EBF7F98024CDF63D00E73B4E /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				EBF7F98124CDF64700E73B4E /* Fonts */,
+				EB8CFECB24D0B97F00579F32 /* Helper+Extension.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		EBF7F98124CDF64700E73B4E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				EBF7F95A24CDF44300E73B4E /* Bangla MN.ttf */,
+				EBF7F96224CDF59E00E73B4E /* Roboto-Black.ttf */,
+				EBF7F96024CDF59E00E73B4E /* Roboto-BlackItalic.ttf */,
+				EBF7F96124CDF59E00E73B4E /* Roboto-Bold.ttf */,
+				EBF7F96424CDF59E00E73B4E /* Roboto-BoldItalic.ttf */,
+				EBF7F95C24CDF59E00E73B4E /* Roboto-Italic.ttf */,
+				EBF7F95F24CDF59E00E73B4E /* Roboto-Light.ttf */,
+				EBF7F96724CDF59E00E73B4E /* Roboto-LightItalic.ttf */,
+				EBF7F96C24CDF59F00E73B4E /* Roboto-Medium.ttf */,
+				EBF7F96324CDF59E00E73B4E /* Roboto-MediumItalic.ttf */,
+				EBF7F95E24CDF59E00E73B4E /* Roboto-Regular.ttf */,
+				EBF7F96824CDF59F00E73B4E /* Roboto-Thin.ttf */,
+				EBF7F96924CDF59F00E73B4E /* Roboto-ThinItalic.ttf */,
+				EBF7F96A24CDF59F00E73B4E /* RobotoCondensed-Bold.ttf */,
+				EBF7F96524CDF59E00E73B4E /* RobotoCondensed-BoldItalic.ttf */,
+				EBF7F95D24CDF59E00E73B4E /* RobotoCondensed-Italic.ttf */,
+				EBF7F96624CDF59E00E73B4E /* RobotoCondensed-Light.ttf */,
+				EBF7F96D24CDF59F00E73B4E /* RobotoCondensed-LightItalic.ttf */,
+				EBF7F96B24CDF59F00E73B4E /* RobotoCondensed-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBF7F92624CDED6E00E73B4E /* MissionSTEM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBF7F95124CDED7200E73B4E /* Build configuration list for PBXNativeTarget "MissionSTEM" */;
+			buildPhases = (
+				EBF7F92324CDED6E00E73B4E /* Sources */,
+				EBF7F92424CDED6E00E73B4E /* Frameworks */,
+				EBF7F92524CDED6E00E73B4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MissionSTEM;
+			productName = MissionSTEM;
+			productReference = EBF7F92724CDED6E00E73B4E /* MissionSTEM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBF7F93C24CDED7200E73B4E /* MissionSTEMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBF7F95424CDED7200E73B4E /* Build configuration list for PBXNativeTarget "MissionSTEMTests" */;
+			buildPhases = (
+				EBF7F93924CDED7200E73B4E /* Sources */,
+				EBF7F93A24CDED7200E73B4E /* Frameworks */,
+				EBF7F93B24CDED7200E73B4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBF7F93F24CDED7200E73B4E /* PBXTargetDependency */,
+			);
+			name = MissionSTEMTests;
+			productName = MissionSTEMTests;
+			productReference = EBF7F93D24CDED7200E73B4E /* MissionSTEMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EBF7F94724CDED7200E73B4E /* MissionSTEMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBF7F95724CDED7200E73B4E /* Build configuration list for PBXNativeTarget "MissionSTEMUITests" */;
+			buildPhases = (
+				EBF7F94424CDED7200E73B4E /* Sources */,
+				EBF7F94524CDED7200E73B4E /* Frameworks */,
+				EBF7F94624CDED7200E73B4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBF7F94A24CDED7200E73B4E /* PBXTargetDependency */,
+			);
+			name = MissionSTEMUITests;
+			productName = MissionSTEMUITests;
+			productReference = EBF7F94824CDED7200E73B4E /* MissionSTEMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBF7F91F24CDED6E00E73B4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = upFree;
+				TargetAttributes = {
+					EBF7F92624CDED6E00E73B4E = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					EBF7F93C24CDED7200E73B4E = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = EBF7F92624CDED6E00E73B4E;
+					};
+					EBF7F94724CDED7200E73B4E = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = EBF7F92624CDED6E00E73B4E;
+					};
+				};
+			};
+			buildConfigurationList = EBF7F92224CDED6E00E73B4E /* Build configuration list for PBXProject "MissionSTEM" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBF7F91E24CDED6E00E73B4E;
+			productRefGroup = EBF7F92824CDED6E00E73B4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBF7F92624CDED6E00E73B4E /* MissionSTEM */,
+				EBF7F93C24CDED7200E73B4E /* MissionSTEMTests */,
+				EBF7F94724CDED7200E73B4E /* MissionSTEMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBF7F92524CDED6E00E73B4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF7F97024CDF5A900E73B4E /* Roboto-Bold.ttf in Resources */,
+				EBF7F97424CDF5A900E73B4E /* Roboto-LightItalic.ttf in Resources */,
+				EBF7F97C24CDF5A900E73B4E /* RobotoCondensed-Italic.ttf in Resources */,
+				EBF7F97B24CDF5A900E73B4E /* RobotoCondensed-BoldItalic.ttf in Resources */,
+				EBF7F97624CDF5A900E73B4E /* Roboto-MediumItalic.ttf in Resources */,
+				EBF7F97224CDF5A900E73B4E /* Roboto-Italic.ttf in Resources */,
+				EBF7F97324CDF5A900E73B4E /* Roboto-Light.ttf in Resources */,
+				EBF7F93724CDED7200E73B4E /* LaunchScreen.storyboard in Resources */,
+				EBF7F97124CDF5A900E73B4E /* Roboto-BoldItalic.ttf in Resources */,
+				EBF7F96F24CDF5A900E73B4E /* Roboto-BlackItalic.ttf in Resources */,
+				EBF7F97824CDF5A900E73B4E /* Roboto-Thin.ttf in Resources */,
+				EBF7F97724CDF5A900E73B4E /* Roboto-Regular.ttf in Resources */,
+				EBF7F97E24CDF5A900E73B4E /* RobotoCondensed-LightItalic.ttf in Resources */,
+				EBF7F95B24CDF44600E73B4E /* Bangla MN.ttf in Resources */,
+				EBF7F97F24CDF5A900E73B4E /* RobotoCondensed-Regular.ttf in Resources */,
+				EBF7F97524CDF5A900E73B4E /* Roboto-Medium.ttf in Resources */,
+				EBF7F97D24CDF5A900E73B4E /* RobotoCondensed-Light.ttf in Resources */,
+				EBF7F97924CDF5A900E73B4E /* Roboto-ThinItalic.ttf in Resources */,
+				EBF7F97A24CDF5A900E73B4E /* RobotoCondensed-Bold.ttf in Resources */,
+				EBF7F96E24CDF5A900E73B4E /* Roboto-Black.ttf in Resources */,
+				EBF7F93424CDED7200E73B4E /* Assets.xcassets in Resources */,
+				EBF7F93224CDED6E00E73B4E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF7F93B24CDED7200E73B4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF7F94624CDED7200E73B4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBF7F92324CDED6E00E73B4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBEDFA4E24D4BD8C007FAF25 /* SecondViewController.swift in Sources */,
+				EB8CFECC24D0B97F00579F32 /* Helper+Extension.swift in Sources */,
+				EB8CFEC624D0B89D00579F32 /* CoolWomenDataSource.swift in Sources */,
+				EB8CFECE24D0B9B500579F32 /* Games+Videos_DataSource.swift in Sources */,
+				EBF7F99124CF2CA500E73B4E /* CoolWomenInSTEMViewController.swift in Sources */,
+				EBF7F92F24CDED6E00E73B4E /* ViewController.swift in Sources */,
+				EB8A013A24D06C4E00883BF0 /* CareerDetailViewController.swift in Sources */,
+				EBEDFA4C24D4BD74007FAF25 /* FirstViewController.swift in Sources */,
+				EBF7F92B24CDED6E00E73B4E /* AppDelegate.swift in Sources */,
+				EBF7F98524CE0F5F00E73B4E /* ExploreViewController.swift in Sources */,
+				EB8CFED224D0BA3C00579F32 /* ExploreDataSource.swift in Sources */,
+				EBF7F92D24CDED6E00E73B4E /* SceneDelegate.swift in Sources */,
+				EB8CFEC424D0B87A00579F32 /* CoolWomenCollectionCell.swift in Sources */,
+				EBF7F98F24CF25C900E73B4E /* GamesViewController.swift in Sources */,
+				EB8CFEC824D0B90900579F32 /* CareeersTableCell.swift in Sources */,
+				EB8CFECA24D0B94500579F32 /* Discover+CareerDetail_DataSource.swift in Sources */,
+				EB8CFED024D0B9EC00579F32 /* STEMDefinitionDataSource.swift in Sources */,
+				EB295BD124DC95E80061F850 /* SwipeIntroductionViewController.swift in Sources */,
+				EBF7F98724CED33000E73B4E /* STEMDefinitionViewController.swift in Sources */,
+				EB8CFEC224D0B82900579F32 /* CareerDetailTableViewCells.swift in Sources */,
+				EBF7F98324CE022F00E73B4E /* HomeViewController.swift in Sources */,
+				EBF7F98D24CF1F1E00E73B4E /* VideosViewController.swift in Sources */,
+				EBF7F98B24CEFAC000E73B4E /* DiscoverCareersViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF7F93924CDED7200E73B4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF7F94224CDED7200E73B4E /* MissionSTEMTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF7F94424CDED7200E73B4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF7F94D24CDED7200E73B4E /* MissionSTEMUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBF7F93F24CDED7200E73B4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBF7F92624CDED6E00E73B4E /* MissionSTEM */;
+			targetProxy = EBF7F93E24CDED7200E73B4E /* PBXContainerItemProxy */;
+		};
+		EBF7F94A24CDED7200E73B4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBF7F92624CDED6E00E73B4E /* MissionSTEM */;
+			targetProxy = EBF7F94924CDED7200E73B4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EBF7F93024CDED6E00E73B4E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBF7F93124CDED6E00E73B4E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBF7F93524CDED7200E73B4E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBF7F93624CDED7200E73B4E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBF7F94F24CDED7200E73B4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EBF7F95024CDED7200E73B4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBF7F95224CDED7200E73B4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V9AR76QY3Y;
+				INFOPLIST_FILE = MissionSTEM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MissionSTEM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EBF7F95324CDED7200E73B4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V9AR76QY3Y;
+				INFOPLIST_FILE = MissionSTEM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MissionSTEM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		EBF7F95524CDED7200E73B4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MissionSTEMTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = alvi.MissionSTEMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MissionSTEM.app/MissionSTEM";
+			};
+			name = Debug;
+		};
+		EBF7F95624CDED7200E73B4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MissionSTEMTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = alvi.MissionSTEMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MissionSTEM.app/MissionSTEM";
+			};
+			name = Release;
+		};
+		EBF7F95824CDED7200E73B4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MissionSTEMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = alvi.MissionSTEMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MissionSTEM;
+			};
+			name = Debug;
+		};
+		EBF7F95924CDED7200E73B4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MissionSTEMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = alvi.MissionSTEMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MissionSTEM;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBF7F92224CDED6E00E73B4E /* Build configuration list for PBXProject "MissionSTEM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF7F94F24CDED7200E73B4E /* Debug */,
+				EBF7F95024CDED7200E73B4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBF7F95124CDED7200E73B4E /* Build configuration list for PBXNativeTarget "MissionSTEM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF7F95224CDED7200E73B4E /* Debug */,
+				EBF7F95324CDED7200E73B4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBF7F95424CDED7200E73B4E /* Build configuration list for PBXNativeTarget "MissionSTEMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF7F95524CDED7200E73B4E /* Debug */,
+				EBF7F95624CDED7200E73B4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBF7F95724CDED7200E73B4E /* Build configuration list for PBXNativeTarget "MissionSTEMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF7F95824CDED7200E73B4E /* Debug */,
+				EBF7F95924CDED7200E73B4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBF7F91F24CDED6E00E73B4E /* Project object */;
+}
