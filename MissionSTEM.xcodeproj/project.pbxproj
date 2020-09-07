@@ -11,7 +11,7 @@
 		3248D8D425049B7D001393B1 /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3248D8D325049B7D001393B1 /* LandingViewController.swift */; };
 		3248D8D62504AAB2001393B1 /* PersonalBranchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3248D8D52504AAB2001393B1 /* PersonalBranchViewController.swift */; };
 		3248D8D82504ADC2001393B1 /* BusinessBranchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3248D8D72504ADC2001393B1 /* BusinessBranchViewController.swift */; };
-		325A569D2505DDA5002C2A16 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 325A569C2505DDA5002C2A16 /* Poppins-Light.ttf */; };
+		325A569F2505E23E002C2A16 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 325A569E2505E23E002C2A16 /* Poppins-Light.ttf */; };
 		326D304D25043F8B002AB212 /* PersonalLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326D304C25043F8B002AB212 /* PersonalLoginViewController.swift */; };
 		327A2F7925054509004E54C8 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327A2F7825054509004E54C8 /* MapViewController.swift */; };
 		EB295BD124DC95E80061F850 /* SwipeIntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB295BD024DC95E70061F850 /* SwipeIntroductionViewController.swift */; };
@@ -82,7 +82,7 @@
 		3248D8D325049B7D001393B1 /* LandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
 		3248D8D52504AAB2001393B1 /* PersonalBranchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalBranchViewController.swift; sourceTree = "<group>"; };
 		3248D8D72504ADC2001393B1 /* BusinessBranchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessBranchViewController.swift; sourceTree = "<group>"; };
-		325A569C2505DDA5002C2A16 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Light.ttf"; path = "../../../../../Poppins/Poppins-Light.ttf"; sourceTree = "<group>"; };
+		325A569E2505E23E002C2A16 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = SOURCE_ROOT; };
 		326D304C25043F8B002AB212 /* PersonalLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalLoginViewController.swift; sourceTree = "<group>"; };
 		327A2F7825054509004E54C8 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		EB295BD024DC95E70061F850 /* SwipeIntroductionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeIntroductionViewController.swift; sourceTree = "<group>"; };
@@ -314,7 +314,7 @@
 				EBF7F95F24CDF59E00E73B4E /* Roboto-Light.ttf */,
 				EBF7F96724CDF59E00E73B4E /* Roboto-LightItalic.ttf */,
 				EBF7F96C24CDF59F00E73B4E /* Roboto-Medium.ttf */,
-				325A569C2505DDA5002C2A16 /* Poppins-Light.ttf */,
+				325A569E2505E23E002C2A16 /* Poppins-Light.ttf */,
 				EBF7F96324CDF59E00E73B4E /* Roboto-MediumItalic.ttf */,
 				EBF7F95E24CDF59E00E73B4E /* Roboto-Regular.ttf */,
 				EBF7F96824CDF59F00E73B4E /* Roboto-Thin.ttf */,
@@ -440,7 +440,7 @@
 				EBF7F97624CDF5A900E73B4E /* Roboto-MediumItalic.ttf in Resources */,
 				EBF7F97224CDF5A900E73B4E /* Roboto-Italic.ttf in Resources */,
 				EBF7F97324CDF5A900E73B4E /* Roboto-Light.ttf in Resources */,
-				325A569D2505DDA5002C2A16 /* Poppins-Light.ttf in Resources */,
+				325A569F2505E23E002C2A16 /* Poppins-Light.ttf in Resources */,
 				EBF7F93724CDED7200E73B4E /* LaunchScreen.storyboard in Resources */,
 				EBF7F97124CDF5A900E73B4E /* Roboto-BoldItalic.ttf in Resources */,
 				EBF7F96F24CDF5A900E73B4E /* Roboto-BlackItalic.ttf in Resources */,
