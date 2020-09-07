@@ -64,7 +64,7 @@ enum enGradient {
         case .mainBackground:
             
             //To change Gradient Color of background
-            return [UIColor(red: 255/255.0, green: 175/255.0, blue: 189.0/255.0, alpha: 1.0).cgColor, UIColor(red: 255/255.0, green: 195/255.0, blue: 160/255.0, alpha: 1.0).cgColor]
+            return [UIColor(red: 85/255.0, green: 192/255.0, blue: 151/255.0, alpha: 1.0).cgColor, UIColor(red: 164/255.0, green: 211/255.0, blue: 160/255.0, alpha: 1.0).cgColor]
     
             
         case .viewBackground:

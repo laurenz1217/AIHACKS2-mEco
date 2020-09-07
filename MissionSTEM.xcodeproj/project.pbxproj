@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3248D8D2250471E4001393B1 /* BusyLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3248D8D1250471E4001393B1 /* BusyLogViewController.swift */; };
+		3248D8D425049B7D001393B1 /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3248D8D325049B7D001393B1 /* LandingViewController.swift */; };
+		3248D8D62504AAB2001393B1 /* PersonalBranchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3248D8D52504AAB2001393B1 /* PersonalBranchViewController.swift */; };
+		3248D8D82504ADC2001393B1 /* BusinessBranchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3248D8D72504ADC2001393B1 /* BusinessBranchViewController.swift */; };
+		326D304D25043F8B002AB212 /* PersonalLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326D304C25043F8B002AB212 /* PersonalLoginViewController.swift */; };
+		327A2F7925054509004E54C8 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327A2F7825054509004E54C8 /* MapViewController.swift */; };
+		32B3CB212504156B0061B3E2 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32B3CB202504156B0061B3E2 /* Poppins-Light.ttf */; };
 		EB295BD124DC95E80061F850 /* SwipeIntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB295BD024DC95E70061F850 /* SwipeIntroductionViewController.swift */; };
 		EB8A013A24D06C4E00883BF0 /* CareerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8A013924D06C4E00883BF0 /* CareerDetailViewController.swift */; };
 		EB8CFEC224D0B82900579F32 /* CareerDetailTableViewCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8CFEC124D0B82900579F32 /* CareerDetailTableViewCells.swift */; };
@@ -18,8 +25,6 @@
 		EB8CFECE24D0B9B500579F32 /* Games+Videos_DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8CFECD24D0B9B500579F32 /* Games+Videos_DataSource.swift */; };
 		EB8CFED024D0B9EC00579F32 /* STEMDefinitionDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8CFECF24D0B9EC00579F32 /* STEMDefinitionDataSource.swift */; };
 		EB8CFED224D0BA3C00579F32 /* ExploreDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8CFED124D0BA3C00579F32 /* ExploreDataSource.swift */; };
-		EBEDFA4C24D4BD74007FAF25 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEDFA4B24D4BD74007FAF25 /* FirstViewController.swift */; };
-		EBEDFA4E24D4BD8C007FAF25 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEDFA4D24D4BD8C007FAF25 /* SecondViewController.swift */; };
 		EBF7F92B24CDED6E00E73B4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF7F92A24CDED6E00E73B4E /* AppDelegate.swift */; };
 		EBF7F92D24CDED6E00E73B4E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF7F92C24CDED6E00E73B4E /* SceneDelegate.swift */; };
 		EBF7F92F24CDED6E00E73B4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF7F92E24CDED6E00E73B4E /* ViewController.swift */; };
@@ -52,7 +57,6 @@
 		EBF7F98724CED33000E73B4E /* STEMDefinitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF7F98624CED33000E73B4E /* STEMDefinitionViewController.swift */; };
 		EBF7F98B24CEFAC000E73B4E /* DiscoverCareersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF7F98A24CEFAC000E73B4E /* DiscoverCareersViewController.swift */; };
 		EBF7F98D24CF1F1E00E73B4E /* VideosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF7F98C24CF1F1E00E73B4E /* VideosViewController.swift */; };
-		EBF7F98F24CF25C900E73B4E /* GamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF7F98E24CF25C900E73B4E /* GamesViewController.swift */; };
 		EBF7F99124CF2CA500E73B4E /* CoolWomenInSTEMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF7F99024CF2CA500E73B4E /* CoolWomenInSTEMViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -74,6 +78,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3248D8D1250471E4001393B1 /* BusyLogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusyLogViewController.swift; sourceTree = "<group>"; };
+		3248D8D325049B7D001393B1 /* LandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
+		3248D8D52504AAB2001393B1 /* PersonalBranchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalBranchViewController.swift; sourceTree = "<group>"; };
+		3248D8D72504ADC2001393B1 /* BusinessBranchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessBranchViewController.swift; sourceTree = "<group>"; };
+		326D304C25043F8B002AB212 /* PersonalLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalLoginViewController.swift; sourceTree = "<group>"; };
+		327A2F7825054509004E54C8 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		32B3CB202504156B0061B3E2 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Light.ttf"; path = "../../../../../Poppins/Poppins-Light.ttf"; sourceTree = "<group>"; };
 		EB295BD024DC95E70061F850 /* SwipeIntroductionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeIntroductionViewController.swift; sourceTree = "<group>"; };
 		EB8A013924D06C4E00883BF0 /* CareerDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareerDetailViewController.swift; sourceTree = "<group>"; };
 		EB8CFEC124D0B82900579F32 /* CareerDetailTableViewCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareerDetailTableViewCells.swift; sourceTree = "<group>"; };
@@ -85,9 +96,7 @@
 		EB8CFECD24D0B9B500579F32 /* Games+Videos_DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Games+Videos_DataSource.swift"; sourceTree = "<group>"; };
 		EB8CFECF24D0B9EC00579F32 /* STEMDefinitionDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STEMDefinitionDataSource.swift; sourceTree = "<group>"; };
 		EB8CFED124D0BA3C00579F32 /* ExploreDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreDataSource.swift; sourceTree = "<group>"; };
-		EBEDFA4B24D4BD74007FAF25 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		EBEDFA4D24D4BD8C007FAF25 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		EBF7F92724CDED6E00E73B4E /* MissionSTEM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MissionSTEM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBF7F92724CDED6E00E73B4E /* mEco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mEco.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBF7F92A24CDED6E00E73B4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EBF7F92C24CDED6E00E73B4E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		EBF7F92E24CDED6E00E73B4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -125,7 +134,6 @@
 		EBF7F98624CED33000E73B4E /* STEMDefinitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STEMDefinitionViewController.swift; sourceTree = "<group>"; };
 		EBF7F98A24CEFAC000E73B4E /* DiscoverCareersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverCareersViewController.swift; sourceTree = "<group>"; };
 		EBF7F98C24CF1F1E00E73B4E /* VideosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosViewController.swift; sourceTree = "<group>"; };
-		EBF7F98E24CF25C900E73B4E /* GamesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesViewController.swift; sourceTree = "<group>"; };
 		EBF7F99024CF2CA500E73B4E /* CoolWomenInSTEMViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolWomenInSTEMViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -167,6 +175,12 @@
 			children = (
 				EBF7F98424CE0F5F00E73B4E /* ExploreViewController.swift */,
 				EB8CFED124D0BA3C00579F32 /* ExploreDataSource.swift */,
+				326D304C25043F8B002AB212 /* PersonalLoginViewController.swift */,
+				3248D8D1250471E4001393B1 /* BusyLogViewController.swift */,
+				3248D8D325049B7D001393B1 /* LandingViewController.swift */,
+				3248D8D52504AAB2001393B1 /* PersonalBranchViewController.swift */,
+				3248D8D72504ADC2001393B1 /* BusinessBranchViewController.swift */,
+				327A2F7825054509004E54C8 /* MapViewController.swift */,
 			);
 			path = Explore;
 			sourceTree = "<group>";
@@ -183,7 +197,6 @@
 		EB8CFEBD24D0B7C700579F32 /* GamesAndVideos */ = {
 			isa = PBXGroup;
 			children = (
-				EBF7F98E24CF25C900E73B4E /* GamesViewController.swift */,
 				EBF7F98C24CF1F1E00E73B4E /* VideosViewController.swift */,
 				EB8CFECD24D0B9B500579F32 /* Games+Videos_DataSource.swift */,
 			);
@@ -219,15 +232,6 @@
 			path = CareerDetail;
 			sourceTree = "<group>";
 		};
-		EBEDFA4A24D4BD5E007FAF25 /* NavigationTutorial */ = {
-			isa = PBXGroup;
-			children = (
-				EBEDFA4B24D4BD74007FAF25 /* FirstViewController.swift */,
-				EBEDFA4D24D4BD8C007FAF25 /* SecondViewController.swift */,
-			);
-			path = NavigationTutorial;
-			sourceTree = "<group>";
-		};
 		EBF7F91E24CDED6E00E73B4E = {
 			isa = PBXGroup;
 			children = (
@@ -241,7 +245,7 @@
 		EBF7F92824CDED6E00E73B4E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EBF7F92724CDED6E00E73B4E /* MissionSTEM.app */,
+				EBF7F92724CDED6E00E73B4E /* mEco.app */,
 				EBF7F93D24CDED7200E73B4E /* MissionSTEMTests.xctest */,
 				EBF7F94824CDED7200E73B4E /* MissionSTEMUITests.xctest */,
 			);
@@ -251,7 +255,6 @@
 		EBF7F92924CDED6E00E73B4E /* MissionSTEM */ = {
 			isa = PBXGroup;
 			children = (
-				EBEDFA4A24D4BD5E007FAF25 /* NavigationTutorial */,
 				EB8CFEC024D0B80000579F32 /* CareerDetail */,
 				EB8CFEBF24D0B7F700579F32 /* CoolWomen */,
 				EB8CFEBE24D0B7DE00579F32 /* DiscoverCareers */,
@@ -308,6 +311,7 @@
 				EBF7F96124CDF59E00E73B4E /* Roboto-Bold.ttf */,
 				EBF7F96424CDF59E00E73B4E /* Roboto-BoldItalic.ttf */,
 				EBF7F95C24CDF59E00E73B4E /* Roboto-Italic.ttf */,
+				32B3CB202504156B0061B3E2 /* Poppins-Light.ttf */,
 				EBF7F95F24CDF59E00E73B4E /* Roboto-Light.ttf */,
 				EBF7F96724CDF59E00E73B4E /* Roboto-LightItalic.ttf */,
 				EBF7F96C24CDF59F00E73B4E /* Roboto-Medium.ttf */,
@@ -342,7 +346,7 @@
 			);
 			name = MissionSTEM;
 			productName = MissionSTEM;
-			productReference = EBF7F92724CDED6E00E73B4E /* MissionSTEM.app */;
+			productReference = EBF7F92724CDED6E00E73B4E /* mEco.app */;
 			productType = "com.apple.product-type.application";
 		};
 		EBF7F93C24CDED7200E73B4E /* MissionSTEMTests */ = {
@@ -436,6 +440,7 @@
 				EBF7F97624CDF5A900E73B4E /* Roboto-MediumItalic.ttf in Resources */,
 				EBF7F97224CDF5A900E73B4E /* Roboto-Italic.ttf in Resources */,
 				EBF7F97324CDF5A900E73B4E /* Roboto-Light.ttf in Resources */,
+				32B3CB212504156B0061B3E2 /* Poppins-Light.ttf in Resources */,
 				EBF7F93724CDED7200E73B4E /* LaunchScreen.storyboard in Resources */,
 				EBF7F97124CDF5A900E73B4E /* Roboto-BoldItalic.ttf in Resources */,
 				EBF7F96F24CDF5A900E73B4E /* Roboto-BlackItalic.ttf in Resources */,
@@ -475,28 +480,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBEDFA4E24D4BD8C007FAF25 /* SecondViewController.swift in Sources */,
 				EB8CFECC24D0B97F00579F32 /* Helper+Extension.swift in Sources */,
 				EB8CFEC624D0B89D00579F32 /* CoolWomenDataSource.swift in Sources */,
 				EB8CFECE24D0B9B500579F32 /* Games+Videos_DataSource.swift in Sources */,
 				EBF7F99124CF2CA500E73B4E /* CoolWomenInSTEMViewController.swift in Sources */,
 				EBF7F92F24CDED6E00E73B4E /* ViewController.swift in Sources */,
 				EB8A013A24D06C4E00883BF0 /* CareerDetailViewController.swift in Sources */,
-				EBEDFA4C24D4BD74007FAF25 /* FirstViewController.swift in Sources */,
 				EBF7F92B24CDED6E00E73B4E /* AppDelegate.swift in Sources */,
 				EBF7F98524CE0F5F00E73B4E /* ExploreViewController.swift in Sources */,
 				EB8CFED224D0BA3C00579F32 /* ExploreDataSource.swift in Sources */,
 				EBF7F92D24CDED6E00E73B4E /* SceneDelegate.swift in Sources */,
+				3248D8D425049B7D001393B1 /* LandingViewController.swift in Sources */,
+				326D304D25043F8B002AB212 /* PersonalLoginViewController.swift in Sources */,
 				EB8CFEC424D0B87A00579F32 /* CoolWomenCollectionCell.swift in Sources */,
-				EBF7F98F24CF25C900E73B4E /* GamesViewController.swift in Sources */,
 				EB8CFEC824D0B90900579F32 /* CareeersTableCell.swift in Sources */,
 				EB8CFECA24D0B94500579F32 /* Discover+CareerDetail_DataSource.swift in Sources */,
 				EB8CFED024D0B9EC00579F32 /* STEMDefinitionDataSource.swift in Sources */,
+				3248D8D62504AAB2001393B1 /* PersonalBranchViewController.swift in Sources */,
 				EB295BD124DC95E80061F850 /* SwipeIntroductionViewController.swift in Sources */,
 				EBF7F98724CED33000E73B4E /* STEMDefinitionViewController.swift in Sources */,
+				3248D8D82504ADC2001393B1 /* BusinessBranchViewController.swift in Sources */,
 				EB8CFEC224D0B82900579F32 /* CareerDetailTableViewCells.swift in Sources */,
+				327A2F7925054509004E54C8 /* MapViewController.swift in Sources */,
 				EBF7F98324CE022F00E73B4E /* HomeViewController.swift in Sources */,
 				EBF7F98D24CF1F1E00E73B4E /* VideosViewController.swift in Sources */,
+				3248D8D2250471E4001393B1 /* BusyLogViewController.swift in Sources */,
 				EBF7F98B24CEFAC000E73B4E /* DiscoverCareersViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -679,8 +687,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.MissionSTEM;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mEco;
+				PRODUCT_NAME = mEco;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -700,8 +708,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.MissionSTEM;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mEco;
+				PRODUCT_NAME = mEco;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;

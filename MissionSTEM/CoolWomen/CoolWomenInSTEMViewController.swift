@@ -51,7 +51,6 @@ extension CoolWomenInSTEMViewController: UICollectionViewDelegate,UICollectionVi
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CoolWomenCollectionCellID", for: indexPath) as! CoolWomenCollectionCell
         
         cell.lblTitle.text = enCoolWomen.allCases[indexPath.row].title
-        cell.lblSubtitle.text = enCoolWomen.allCases[indexPath.row].subtitle
         cell.lblDesc.text = enCoolWomen.allCases[indexPath.row].description
         cell.img.image =  enCoolWomen.allCases[indexPath.row].img
         return cell

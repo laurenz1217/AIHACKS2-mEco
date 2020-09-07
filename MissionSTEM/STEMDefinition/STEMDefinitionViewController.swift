@@ -26,21 +26,6 @@ class STEMDefinitionViewController: UIViewController {
     }
 }
 
-extension STEMDefinitionViewController: UITableViewDelegate,UITableViewDataSource {
-    
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return STEMDefinitionData.allCases.count
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "STEMDefinitionTableCellID") as! STEMDefinitionTableCell
-        
-        cell.lblTitle.attributedText = STEMDefinitionData.allCases[indexPath.row].title
-        cell.lblSubTitle.text = STEMDefinitionData.allCases[indexPath.row].subtitle
-
-        return cell
-    }
-}
 
 
 class STEMDefinitionTableCell: UITableViewCell {

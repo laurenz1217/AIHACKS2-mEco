@@ -61,7 +61,7 @@ extension VideosViewController: UICollectionViewDelegate,UICollectionViewDataSou
         cell.clipsToBounds = true
         cell.layer.cornerRadius = 8
         cell.layer.borderWidth = 0
-        cell.backgroundColor = UIColor(red: 255/255.0, green: 202/255.0, blue: 212/255.0, alpha: 1.0)
+        cell.backgroundColor = UIColor(red: 210/255.0, green: 255/255.0, blue: 247/255.0, alpha: 1.0)
         cell.layer.masksToBounds = false
         cell.layer.shadowColor = UIColor.init(red: 0/255, green: 0/255, blue: 0/255, alpha: 0.15).cgColor
         cell.layer.shadowOpacity = 1

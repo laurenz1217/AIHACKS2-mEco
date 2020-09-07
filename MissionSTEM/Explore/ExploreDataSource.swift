@@ -9,6 +9,7 @@
 import Foundation
 import UIKit
 
+
 enum enExploreData: CaseIterable {
     
     case whatIsSteam
@@ -23,22 +24,22 @@ enum enExploreData: CaseIterable {
     var titleForRow: String {
         switch self {
         case .whatIsSteam:
-            return "What is STEM?"
+            return "create a personal account"
         case .ExploreCareers:
-            return "Explore Careers"
+            return "register as a business"
         case .CoolWomenInSTEEM:
-            return "Cool Women in STEM"
+            return "about mEco"
         }
     }
     
     var backgroundColor: UIColor {
         switch self {
         case .whatIsSteam:
-            return UIColor(red: 255/255.0, green: 202/255.0, blue: 212/255.0, alpha: 1.0)
+            return UIColor(red: 255/255.0, green: 255/255.0, blue: 255/255.0, alpha: 1.0)
         case .ExploreCareers:
-            return UIColor(red: 255/255.0, green: 229/255.0, blue: 217/255.0, alpha: 1.0)
+            return UIColor(red: 255/255.0, green: 255/255.0, blue: 255/255.0, alpha: 1.0)
         case .CoolWomenInSTEEM:
-            return UIColor(red: 244/255.0, green: 172/255.0, blue: 183/255.0, alpha: 1.0)
+            return UIColor(red: 255/255.0, green: 255/255.0, blue: 255/255.0, alpha: 1.0)
         }
     }
 }

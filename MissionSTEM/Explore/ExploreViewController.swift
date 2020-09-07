@@ -10,24 +10,22 @@ import UIKit
 
 class ExploreViewController: UIViewController {
     
-    @IBOutlet weak var viewGames: UIView!
-    @IBOutlet weak var lblGames: UILabel!
-    
+
     
     @IBOutlet weak var viewVideos: UIView!
     @IBOutlet weak var lblVideos: UILabel!
 
     override func viewDidLoad() {
-        super.viewDidLoad()
+          super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         self.view.gradientLayer(with: .mainBackground)
-        viewGames.bordered()
+
         viewVideos.bordered()
         
             
-        lblGames.text = "Games"
-        lblVideos.text = "Videos"
+ 
+        lblVideos.text = "community resources"
         
         
     }
@@ -41,13 +39,7 @@ class ExploreViewController: UIViewController {
         self.navigationController?.popToRootViewController(animated: true)
     }
 
-    @IBAction func actionGames(_ sender: UIButton) {
-        let story = UIStoryboard(name: "Main", bundle: nil)
-        
-        let vc = story.instantiateViewController(withIdentifier: "GamesViewController") as! GamesViewController
-        self.navigationController?.pushViewController(vc, animated: true)
-
-    }
+  
     
     @IBAction func actionVideos(_ sender: UIButton) {
         
@@ -67,15 +59,17 @@ class ExploreViewController: UIViewController {
             
         case .whatIsSteam:
             
-            let vc = story.instantiateViewController(withIdentifier: "STEMDefinitionViewController") as! STEMDefinitionViewController
+            let vc = story.instantiateViewController(withIdentifier: "PersonalLoginViewController") as! PersonalLoginViewController
             self.navigationController?.pushViewController(vc, animated: true)
 
         case .ExploreCareers:
-            let vc = story.instantiateViewController(withIdentifier: "DiscoverCareersViewController") as! DiscoverCareersViewController
+            
+            let vc = story.instantiateViewController(withIdentifier: "BusyLogViewController") as! BusyLogViewController
             self.navigationController?.pushViewController(vc, animated: true)
 
         case .CoolWomenInSTEEM:
-                        let vc = story.instantiateViewController(withIdentifier: "CoolWomenInSTEMViewController") as!  CoolWomenInSTEMViewController
+            
+            let vc = story.instantiateViewController(withIdentifier: "CoolWomenInSTEMViewController") as!  CoolWomenInSTEMViewController
             self.navigationController?.pushViewController(vc, animated: true)
 
         }

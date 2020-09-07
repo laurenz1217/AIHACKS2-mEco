@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import MissionSTEM
+@testable import mEco
 
 class MissionSTEMTests: XCTestCase {
 

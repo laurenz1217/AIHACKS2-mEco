@@ -18,8 +18,11 @@ class HomeViewController: UIViewController {
         // Do any additional setup after loading the view.
        // self.view.layer.insertSublayer(color.gl, at: 0)
         self.view.gradientLayer(with: .mainBackground)
+
+               navigationController?.isNavigationBarHidden = true
     }
     
+
     override func viewWillAppear(_ animated: Bool) {
         
 
@@ -30,9 +33,7 @@ class HomeViewController: UIViewController {
         let vc = story.instantiateViewController(withIdentifier: "ExploreViewController") as! ExploreViewController
         self.navigationController?.pushViewController(vc, animated: true)
     }
-    override func viewWillLayoutSubviews() {
-        viewStartExpolring.gradientLayer(with: .viewBackground)
-    }
+    
 }
 
 
